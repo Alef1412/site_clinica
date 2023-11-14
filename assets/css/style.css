@@ -5,3 +5,24 @@ header{
 #menu {
   background-color: #585E4C;
 }
+
+.menu_items{
+  text-align: left;
+  width: 300px !important;
+  margin-left: 52%;
+}
+
+.text_home h1{
+  font-family: Lora;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 65px;
+  Line-height: 83.2px;
+  letter-spacing:4%;
+  color: #FFF8F4;
+  ;
+}
+
+.text_home p{
+
+}
