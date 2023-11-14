@@ -12,6 +12,12 @@ header{
   margin-left: 52%;
 }
 
+#home{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
 .text_home h1{
   font-family: Lora;
   font-weight: 400;
@@ -24,5 +30,9 @@ header{
 }
 
 .text_home p{
-
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 4%;
 }
