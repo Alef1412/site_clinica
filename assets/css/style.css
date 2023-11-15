@@ -144,3 +144,33 @@ header{
   line-height: 28px;
   color: #4D4D4D;
 }
+
+#facial_treatments{
+  background-color: #FCF3EE;
+}
+
+.text_facial_treatments h2{
+  font-family: Lora;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 40px;
+  color: #585E4C;
+}
+
+.text_facial_treatments p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #A2AAA1;
+}
+
+.text_facial_treatments li{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #818D7F;
+}
+
