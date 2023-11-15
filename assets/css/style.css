@@ -147,6 +147,24 @@ header{
 
 #facial_treatments{
   background-color: #FCF3EE;
+  overflow: hidden;
+  
+}
+
+.meio_circulo_tf_1{
+position: absolute;
+bottom: 0;
+left: 20%;
+transform: rotate(40deg);
+}
+
+.meio_circulo_tf_2{
+position: absolute;
+right: 0;
+}
+
+.img_tf{
+  float: left;
 }
 
 .text_facial_treatments h2{
@@ -173,4 +191,41 @@ header{
   line-height: 28px;
   color: #818D7F;
 }
+
+#body_treatments{
+  background-color: #585E4C;
+}
+
+.text_bt{
+  width: 604px;
+}
+
+.text_bt h2{
+  font-family: Lora;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 41px;
+  color: #FFF8F4;
+}
+
+.text_bt p{
+  width: 417px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #A2AAA1;
+}
+
+.text_bt li{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  letter-spacing: 4%;
+}
+
+
 
