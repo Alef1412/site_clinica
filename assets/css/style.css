@@ -148,14 +148,8 @@ header{
 #facial_treatments{
   background-color: #FCF3EE;
   overflow: hidden;
+  position: relative;
   
-}
-
-.meio_circulo_tf_1{
-position: absolute;
-bottom: 0;
-left: 20%;
-transform: rotate(40deg);
 }
 
 .meio_circulo_tf_2{
@@ -163,8 +157,18 @@ position: absolute;
 right: 0;
 }
 
+.grid_facial_treatments_img{
+  height: 765px;
+}
+
 .img_tf{
-  float: left;
+  display: inline-block;
+}
+
+#img_tf_2{
+  position: relative;
+  bottom: 160px;
+  left: 250px;
 }
 
 .text_facial_treatments h2{
@@ -227,5 +231,36 @@ right: 0;
   letter-spacing: 4%;
 }
 
+#team{
+  background-color: #FCF3EE;
+  padding-block: 100px;
+  overflow: hidden;
+}
+
+.palmeira_team{
+  position: absolute;
+  bottom: 20px;
+}
+
+.team_text{
+  width: 480px;
+}
+
+.team_text h2{
+  font-family: Lora;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 41px;
+  color: #585E4C;
+}
+
+.team_text p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #585E4C;
+}
 
 
