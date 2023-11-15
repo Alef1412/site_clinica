@@ -81,8 +81,66 @@ header{
 
 #about{
   background-color: #FFF8F4;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+.palmeira_about_1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.palmeira_about_2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.circulo_about_1{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  z-index:-1;
+}
+.circulo_about_2{
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  z-index: -1;
+}
+.circulo_about_3{
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  z-index: -1;
+}
+.circulo_about_4{
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  z-index: -1;
 }
 
 .about_text{
   width: 591px;
+}
+
+.about_text h2{
+  font-family: Lora;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 46px;
+  line-height: 58px;
+  color: #585E4C;
+}
+
+.about_text p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4D4D4D;
 }
