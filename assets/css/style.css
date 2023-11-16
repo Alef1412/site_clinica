@@ -161,16 +161,6 @@ right: 0;
   height: 765px;
 }
 
-.img_tf{
-  display: inline-block;
-}
-
-#img_tf_2{
-  position: relative;
-  bottom: 160px;
-  left: 250px;
-}
-
 .text_facial_treatments h2{
   font-family: Lora;
   font-weight: 400;
@@ -200,7 +190,12 @@ right: 0;
   background-color: #585E4C;
 }
 
+.img_circle_body_treatments{
+  position: absolute;
+}
+
 .text_bt{
+  padding-left: 5%;
   width: 604px;
 }
 
@@ -234,15 +229,17 @@ right: 0;
 #team{
   background-color: #FCF3EE;
   padding-block: 100px;
+  position: relative;
   overflow: hidden;
 }
 
 .palmeira_team{
   position: absolute;
-  bottom: 20px;
+  right: 0px;
 }
 
 .team_text{
+  padding-top: 10%;
   width: 480px;
 }
 
@@ -263,4 +260,34 @@ right: 0;
   color: #585E4C;
 }
 
+#contact{
+  background-image: url(../img/png/imagem_fundo_contatos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.text_contact{
+  width: 847px;
+  margin-inline: auto;
+  text-align: center;
+}
+.text_contact h2{
+  font-family: Lora;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 51px;
+  color: #FFF8F4;
+}
+
+.text_contact p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFF8F4;
+}
