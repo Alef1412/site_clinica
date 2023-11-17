@@ -32,14 +32,25 @@ header {
   background-color: #585E4C;
 }
 
-#menu {
+
+
+nav {
   background-color: #585E4C;
+  color: #FFFFFF;
+}
+
+#menu a{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
 }
 
 .menu_items {
   text-align: left;
   width: 300px !important;
-  margin-left: 52%;
+  margin-left: 50%;
 }
 
 #home {
