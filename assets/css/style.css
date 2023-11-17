@@ -304,12 +304,35 @@ footer {
   margin: auto;
 }
 
+.logo_footer img{
+  margin-bottom: 10%;
+}
+
 .social_media_footer {
   width: 361px;
   text-align: justify;
   margin: auto;
 }
 
+.social_media_footer a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.itens_social_media{
+  padding-block: 3%;
+}
+
 .menu_footer {
-  margin: auto;
+  margin: auto; 
+}
+
+.menu_footer li{
+  list-style: none;
+  padding-block: 3%;
+}
+
+.menu_footer a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
