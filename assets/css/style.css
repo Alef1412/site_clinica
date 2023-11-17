@@ -1,3 +1,7 @@
+body{
+  background-color: #FFF8F4;
+}
+
 header{
   background-color: #585E4C;
 }
@@ -290,4 +294,31 @@ right: 0;
   font-size: 16px;
   line-height: 28px;
   color: #FFF8F4;
+}
+
+footer{
+  background-color: #35392C;
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10%;
+  margin-top: 10%;
+}
+
+.logo_footer{
+  width: 277px;
+  text-align: center;
+  margin: auto;
+}
+
+.social_media_footer{
+  width: 361px; 
+  text-align: justify;
+  margin: auto;
+}
+
+.menu_footer{
+  margin: auto;
 }
