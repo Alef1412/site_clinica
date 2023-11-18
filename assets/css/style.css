@@ -39,6 +39,21 @@ nav {
   color: #FFFFFF;
 }
 
+button {
+  border-radius: 40px;
+  padding: 8px 32px;
+  color: #1F2E13;
+  border: none;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+}
+button a{
+  text-decoration: none;
+  color: #1F2E13;
+}
 #menu a{
   font-family: Poppins;
   font-weight: 500;
