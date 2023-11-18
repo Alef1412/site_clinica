@@ -218,6 +218,13 @@ button a{
   color: #818D7F;
 }
 
+.btn_facial_treatments{
+  background-color: #818D7F;
+}
+.btn_facial_treatments a{
+  color: #FFF8F4;
+}
+
 #body_treatments {
   background-color: #585E4C;
 }
