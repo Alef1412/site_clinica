@@ -66,6 +66,11 @@ button a{
   color: #FFFFFF;
 }
 
+#menu a:hover{
+ transform: scale(0.8);
+ transition: transform 0.3s;
+}
+
 .menu_items {
   text-align: left;
   width: 300px !important;
@@ -124,12 +129,15 @@ button a{
   width: 480px;
 }
 
-
-
 .text_home p {
   font-weight: 300;
   font-size: 18px;
   color: #FFF8F4;
+}
+.btn_home:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s; 
+  background-color: #FFF8F4; 
 }
 
 #about {
@@ -228,6 +236,10 @@ button a{
 .btn_facial_treatments a{
   color: #FFF8F4;
 }
+.btn_facial_treatments:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
 
 #body_treatments {
   background-color: #585E4C;
@@ -259,6 +271,11 @@ button a{
   line-height: 28px;
   color: #FFFFFF;
   letter-spacing: 4%;
+}
+
+.btn_body_treatments:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s;
 }
 
 #team {
@@ -313,6 +330,11 @@ button a{
   color: #FFF8F4;
 }
 
+.btn_contact:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
 footer {
   background-color: #35392C;
   color: #FFFFFF;
@@ -361,4 +383,9 @@ footer {
 .menu_footer a{
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.menu_footer li:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s;
 }
