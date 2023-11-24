@@ -1,0 +1,151 @@
+@media(max-width: 600px) {
+  .text_home {
+    width: auto;
+    padding-block: 10%;
+  }
+
+  .text_home h1 {
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 40px;
+  }
+
+  .text_home p {
+    margin-bottom: 40px;
+  }
+
+  .grid_home_b {
+    display: none;
+  }
+
+  #about {
+    padding: 10px;
+  }
+
+  .circulo_about_1,
+  .circulo_about_2,
+  .circulo_about_3,
+  .circulo_about_4 {
+    display: none;
+  }
+
+  .about_text {
+    width: auto;
+  }
+
+  .about_text h2 {
+    font-size: 38px;
+  }
+
+  .about_text p {
+    font-size: 16px;
+  }
+
+  .text_facial_treatments h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .text_facial_treatments p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .text_facial_treatments li {
+    font-size: 16px;
+  }
+
+  .btn_facial_treatments {
+    margin-left: 20px;
+  }
+
+  .grid_facial_treatments_img {
+    padding-block: 40px;
+  }
+
+  .meio_circulo_tf_2 {
+    display: none;
+  }
+
+  .img_circle_body_treatments {
+    display: none;
+  }
+
+  .text_bt {
+    width: auto;
+    padding-left: 0;
+  }
+
+  .text_bt h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .text_bt p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .text_bt li {
+    font-size: 16px;
+  }
+
+  .team_text {
+    width: auto;
+  }
+
+  .team_text h2 {
+    font-size: 32px;
+  }
+
+  .team_text p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .text_contact {
+    width: auto;
+    margin-inline: auto;
+  }
+
+  .text_contact h2 {
+    font-size: 36px;
+  }
+
+  .text_contact p {
+    font-size: 16px;
+    margin-block: 30px;
+  }
+
+  .btn_contact {
+    margin-top: 20px;
+  }
+
+  footer {
+    height: 100vh;
+  }
+
+  .logo_footer{
+    width: auto;
+    text-align: left;
+  }
+
+  .social_media_footer {
+    width: auto;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .itens_social_media {
+    font-size: 14px;
+  }
+
+  .menu_footer ul{
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .menu_footer li{
+    font-size: 14px;
+  }
+}
